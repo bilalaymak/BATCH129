@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class C02_Scanner01 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-      //  Scanner input = new Scanner(System.in); input da yazılabilir
+        //  Scanner input = new Scanner(System.in); input da yazılabilir
+        // next(); method kullanıcıdan "tek kelimelik " string almak için kullanılır
 
 
         /* Kullaniciya ad , memleket , yas, boy ,
