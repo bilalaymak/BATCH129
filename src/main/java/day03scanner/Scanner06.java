@@ -7,25 +7,22 @@ public class Scanner06 {
         //Kullanicidan alacaginiz 5 basamakli
         // bir sayinin ilk iki ve son iki basamagindaki
         //  rakamlari toplamini yazdiran kodu yaziniz
+// javada tam sayıyı tam sayıya böldüğümüzde virgülden sonrasını hesaba katmaz..
+// dolayısıyla almak istediğimiz rakamları bu bölme işlemlerini yaparak hallederiz
+// java yuvarlama yapmaz
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen 5 basamaklı bir sayı giriniz");
 
         int number = scan.nextInt();
-        int ilkIkiRakam = number/1000;
-        System.out.println("ilkIkiRakam = " + ilkIkiRakam);
 
-        int ilkIkiTop = (ilkIkiRakam % 10) + (ilkIkiRakam/10);
-        System.out.println("ilkIkiTop = " + ilkIkiTop);
+        //son rakam al
+        int lastDigit = number % 10;
+        System.out.println(lastDigit);
 
-        int sonIkiRakam = number % 100;
-        System.out.println("sonIkiRakam = " + sonIkiRakam);
+        //sayıyı küçült
+        number = number/10;
 
-        int sonIkiRakamTop = (sonIkiRakam % 10) + (sonIkiRakam/10);
-        System.out.println("sonIkiRakamTop = " + sonIkiRakamTop);
-
-        int toplam = ilkIkiTop + sonIkiRakamTop;
-        System.out.println("toplam = " + toplam);
 
     }
 }
