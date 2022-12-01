@@ -1,6 +1,5 @@
 package odev;
 
-import java.util.Scanner;
 
 public class Odev01 {
     //1)Dikdirtgenin alanini hesaplayan methodu olusturunuz ve kullaniniz

@@ -1,8 +1,8 @@
-package practice;
+package odev;
 
 import java.util.Scanner;
 
-public class practice01 {
+public class Odev02 {
 
 
 
