@@ -1,4 +1,4 @@
-package practice;
+package day03scanner;
 
 public class Car {
 
