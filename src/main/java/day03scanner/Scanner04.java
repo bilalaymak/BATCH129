@@ -15,10 +15,10 @@ public class Scanner04 {
 
         double secondNumber = input.nextDouble();
 
-        System.out.println(firstNumber + secondNumber);
-        System.out.println(firstNumber - secondNumber);
-        System.out.println(firstNumber * secondNumber);
-        System.out.println(firstNumber / secondNumber);
+        System.out.println("Toplamı = " + firstNumber + secondNumber);
+        System.out.println("Farkı = "+  (firstNumber-secondNumber));
+        System.out.println("Çarpımı = " + firstNumber * secondNumber);
+        System.out.println("Bölümü = " + firstNumber / secondNumber);
 
     }
 }

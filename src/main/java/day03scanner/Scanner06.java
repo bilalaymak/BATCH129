@@ -22,7 +22,7 @@ public class Scanner06 {
 
         //sayıyı küçült
         number = number/10;
-
+        System.out.println(lastDigit);
 
     }
 }
