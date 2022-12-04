@@ -150,7 +150,73 @@ public class StringManipulations01 {
         //if you study hard, you will learn Java.
 
 
+        /*
+        if(if you study hard){you will learn Java}
 
+         */
+
+        //Example 10: sayı pozitif ise ekrana "çift" yazdırın
+
+        int num =12;
+
+        if (num>0){
+            System.out.println("pozitif");
+        }
+        else if (num<0) {System.out.println("negatif");
+        }
+
+        //Example 11: Sayı -1 ile 10 arasında ise rakam yazdırım
+        int rakam =6;
+
+        if (rakam>-1 && rakam<10){
+            System.out.println("pozitif ");
+        }
+
+
+        //Example 9: bir String'deki tekrarsız karakterleri ekrana yazdırınız
+        // abbcccdc ==> ad
+
+        String y = "aac";
+
+        char ch1 = y.charAt(0);
+        if(y.indexOf(ch1)==y.lastIndexOf(ch1)){
+            System.out.println(ch1);//c
+        }
+
+        char ch2 = y.charAt(1);
+        if (y.indexOf(ch2)==y.lastIndexOf(ch2)){
+            System.out.println(ch2);//c
+        }
+
+        char ch3 = y.charAt(2);
+        if (y.indexOf(ch3)==y.lastIndexOf(ch3)) {
+            System.out.println(ch3);//C
+        }
+
+
+        //Example 12. sayı 3 basamaklı ise ekrana "Wooow!" yazdırın
+
+        int n = 123;
+        if(n>99 && n<1000){
+            System.out.println("Wooow!");
+
+        }
+
+        //mutlak değer alma
+
+        int m = -123;
+        m = Math.abs(m);
+
+        if (n>0 && m<1000){
+            System.out.println("Waaaw");
+        }
+
+        int h = 123;
+        h = Math.abs(h);
+
+        if (h>0 && h<1000){
+            System.out.println("Waaaw");
+        }
 
 
 
