@@ -26,18 +26,31 @@ public class Scanner04 {
         System.out.println("yaşınızı giriniz");
         yas = scan.nextInt();
 
-        System.out.println("spor salonuna kaç aylık abonman yapmak istiyorsunuz?");
-        sure = scan.nextInt();
-
         System.out.println("kilonuzu giriniz");
         kilo = scan.nextDouble();
 
         System.out.println("boyunuzu giriniz");
         boy = scan.nextDouble();
 
-        totalUcret = sure*20;
+        System.out.println("spor salonuna kaç aylık abonman yapmak istiyorsunuz?");
+        sure = scan.nextInt();
 
+        totalUcret = sure*20;
         System.out.println("toplam ücret = " + totalUcret + "$'dır");
+
+        System.out.println("adı = "+ isim
+                + "\nsoyadı = " + soyIsim
+                + "\nyaş = " + yas
+                + "\nboy" + boy
+                + "\nkilo = " + kilo
+                + "\nsure = " + sure
+                + "\ntoplam tutar = " + totalUcret + "$'dır");
+
+
+
+
+
+
 
 
 
