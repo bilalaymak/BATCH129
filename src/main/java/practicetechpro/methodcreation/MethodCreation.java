@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class MethodCreation {
     public static void main(String[] args) {
 
-//dikdortgenin alanı ve çevresi
+        //dikdortgenin alanı ve çevresi
+        //karenin alanı
+        //static ==> protokol tribünü, giriş kısıtlı
 
         Scanner scan = new Scanner(System.in);
 
@@ -19,6 +21,7 @@ public class MethodCreation {
         System.out.println(
                 "dikdörtgenin alanı = " + alanDikdortgen +
                 "\ndikdörtgenin çevresi = " + cevreDikdortgen);
+        kareninAlani(a);
     }
 
     private static int dikdortgenAlan(int a, int b){
@@ -28,5 +31,9 @@ public class MethodCreation {
     private static int dikdortgenCevre(int a, int b){
         return 2*(a+b);
 
+    }
+
+    public static void kareninAlani(int a){
+        System.out.println("Karenin Alanı : " +(a*a));
     }
 }
