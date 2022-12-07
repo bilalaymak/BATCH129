@@ -2,7 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class Practice01 {/*gömlek ve ayakkabı fiyatları için iki tane variable oluşturup toplam fiyatı ekrana
+public class ScanAndMethod {/*gömlek ve ayakkabı fiyatları için iki tane variable oluşturup toplam fiyatı ekrana
     yazdırın
     */
     public static void main(String[] args) {

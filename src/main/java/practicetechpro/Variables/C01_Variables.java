@@ -1,4 +1,4 @@
-package variablesNightTime01;
+package practicetechpro.Variables;
 
 public class C01_Variables {
     public static void main(String[] args) {

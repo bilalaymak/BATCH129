@@ -1,6 +1,6 @@
-package variablesDateTime01;
+package practicetechpro.Variables;
 
-public class C01_Variables {
+public class C02_Variables {
     public static void main(String[] args) {
 
 

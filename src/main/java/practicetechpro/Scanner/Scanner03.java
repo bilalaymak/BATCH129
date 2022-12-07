@@ -1,8 +1,8 @@
-package practicetechpro;
+package practicetechpro.Scanner;
 
 import java.util.Scanner;
 
-public class C04_Scanner03 {
+public class Scanner03 {
     public static void main(String[] args) {
 
         /*Ex : Kullanicidan alacaginiz 5 basamakli
