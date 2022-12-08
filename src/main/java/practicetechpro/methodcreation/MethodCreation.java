@@ -21,7 +21,10 @@ public class MethodCreation {
         System.out.println(
                 "dikdörtgenin alanı = " + alanDikdortgen +
                 "\ndikdörtgenin çevresi = " + cevreDikdortgen);
-        kareninAlani(a);
+
+
+        kareninAlani(a);// void'li method yaptık
+        //return type "void" olunca "return" kullanılmaz
     }
 
     private static int dikdortgenAlan(int a, int b){
@@ -33,7 +36,8 @@ public class MethodCreation {
 
     }
 
-    public static void kareninAlani(int a){
+    public static void kareninAlani(int a){  //void'li method
         System.out.println("Karenin Alanı : " +(a*a));
+        //return type "void" olunca "return" kullanılmaz
     }
 }
