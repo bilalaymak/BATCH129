@@ -18,7 +18,7 @@ public class Ternary01 {
             System.out.println(b);
         }
 
-        //2.Yol: Ternary
+        //2.Yol: Ternary (if-else'in yaptigi isin aynisini yaptirir) daha okunurdur, daha kolaydir
         //             Condition   ?  Condition true ise calisir    :    Condition false ise calisir     ;
         double result =    a<b     ?               a                :                  b                 ;
         System.out.println(result);

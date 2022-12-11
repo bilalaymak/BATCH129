@@ -39,7 +39,7 @@ public class Ternary01 {
             }//if body
 
             System.out.println("*** Ternary **************");
-            boolean pozitifseTernary=sayi>0;
+            boolean pozitifseTernary = sayi > 0;
             boolean sifirdanBuyukUcBasTernary = sayi > 99 && sayi < 1000;
             boolean sifirdanBuyukUcBasDegilCiftTernary = !(sayi > 99 && sayi < 1000) && sayi % 2 == 0;
  /*   ActionDataType variable=(şart)        ? trueAction                                        : falseAction;
