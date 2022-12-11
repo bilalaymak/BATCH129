@@ -57,10 +57,10 @@ public class IfStatement05 {
        Note: String'lerin esitliklerini kontrol ederken "==" yerine "equals()" kullaniriz.
       Niye ?
       Cunku; "==" sembolu iki String'i karsilastirirken hem adres'lerine hem de degerlerine bakar,
-      ikisi de ayni ise siz String'ler esittir der ama biz code yazarken genellikle String'lerin
+      ikisi de ayni ise siz String'ler esittir dersiniz ama biz code yazarken genellikle String'lerin
       adres'leri ile degil degerleri ile ilgileniriz. Bu yuzden String karsilastirmalarinda "==" kullanmayiz.
 
-      "equals()" metho'u ise iki String'i karsilastirirken sadece degerlerine bakar, degerler ayni ise
+      "equals()" method'u ise iki String'i karsilastirirken sadece degerlerine bakar, degerler ayni ise
       bu iki String esittir der degerler farkli ise bu iki String farklidir der ki bu bizim kod yazarken
       ihtiyac duydugumuz seydir.
 
