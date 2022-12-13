@@ -11,11 +11,14 @@ public class Loops02 {
 
 
             }
-            //Example 2: Size verilen kucuk harfle yazilmis String'in index'i
-            // cift sayi olan caharacter'lerini buyuk harf yapiniz
-            //           ankara ==> AnKaRa
+
             //Note: Yazdiginiz code belli senaryolar icin calisiyor, tum senaryolar icin calismiyorsa; bu code'a
             //      "hard-code" denir. "hard-code" yanlis yazilmis code'dur, mutlaka duzeltilmelidir.
+
+            //Example 2: Size verilen kucuk harfle yazilmis String'in index'i
+            // cift sayi olan caharacter'lerini buyuk harf yapiniz
+
+            //           ankara ==> AnKaRa
 
             //Note: Bir String'de son index = length() - 1
 

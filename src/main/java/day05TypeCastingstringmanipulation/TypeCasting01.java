@@ -9,7 +9,8 @@ public class TypeCasting01 {
   Note 1: Küçük data type'larını büyük data type'larına çevirmeyi Java otomatik olarak yapabilir.
           Bu işleme "AutoWidening" (Otomatik Genişletme) denir.
 
-  Note 2: Büyük data type'larını küçük data type'larına çevirmek riskli bir iştir,Java bu riskli işi otomatik olarak yapmaz.
+  Note 2: Büyük data type'larını küçük data type'larına çevirmek riskli bir iştir,
+          Java bu riskli işi otomatik olarak yapmaz.
           Bu işlemi kod yazanlar yapar.
           Bu işleme "ExplicitNarrowing"(açıktan daraltma) denir
 
@@ -44,10 +45,12 @@ public class TypeCasting01 {
          short fiyatShort = (short) fiyat;
         System.out.println(fiyatShort);
 
-        //dikkat!
-        //Dikkat!
-        //Donusum yaptiginiz sayi(260), donuseceginiz data type'inin sinirlari disinda ise, Java kullandiginiz sayi ile "mod" islemi
-        //yapar ve mod isleminin sonucu sizin yeni degeriniz olur
+        /*dikkat!
+        Dikkat!
+        Donusum yaptiginiz sayi(260), donuseceginiz data type'inin sinirlari disinda ise, Java kullandiginiz sayi ile
+         "mod" islemi
+        yapar ve mod isleminin sonucu sizin yeni degeriniz olur
+        */
         short num = 260;
         System.out.println(num); //260
 

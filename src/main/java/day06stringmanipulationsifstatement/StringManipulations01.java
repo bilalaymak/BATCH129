@@ -142,7 +142,23 @@ public class StringManipulations01 {
         //Note: lastIndexOf() String olmayan bir character icin kullanilirsa her zaman "-1" verir
 
         //Example 9: bir String'deki tekrarsız karakterleri ekrana yazdırınız
-        // abbcccdc ==> ad
+        //abbcccdc ==> ad
+        String y = "aac";
+
+        char ch1 = y.charAt(0);
+        if(y.indexOf(ch1)==y.lastIndexOf(ch1)){
+            System.out.println(ch1);
+        }
+
+        char ch2 = y.charAt(1);
+        if(y.indexOf(ch2)==y.lastIndexOf(ch2)){
+            System.out.println(ch2);
+        }
+
+        char ch3 = y.charAt(2);
+        if(y.indexOf(ch3)==y.lastIndexOf(ch3)){
+            System.out.println(ch3);
+        }
 
         //note: bazi kodların bazı şartlara bağlı olarak çalışması gerekir.
         //bazı kodları bazı şartlara göre aktive etmek için "if statement" (yapısı) kullanılır
@@ -176,19 +192,19 @@ public class StringManipulations01 {
         //Example 9: bir String'deki tekrarsız karakterleri ekrana yazdırınız
         // abbcccdc ==> ad
 
-        String y = "aac";
+        y = "aac";
 
-        char ch1 = y.charAt(0);
+        ch1 = y.charAt(0);
         if(y.indexOf(ch1)==y.lastIndexOf(ch1)){
             System.out.println(ch1);//c
         }
 
-        char ch2 = y.charAt(1);
+        ch2 = y.charAt(1);
         if (y.indexOf(ch2)==y.lastIndexOf(ch2)){
             System.out.println(ch2);//c
         }
 
-        char ch3 = y.charAt(2);
+        ch3 = y.charAt(2);
         if (y.indexOf(ch3)==y.lastIndexOf(ch3)) {
             System.out.println(ch3);//C
         }

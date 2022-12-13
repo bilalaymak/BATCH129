@@ -26,7 +26,7 @@ public class Loops01 {
 
 
         // baslangic degeri     calisma sarti            increment/decrement
-        for (int i = 1; i < 6; i++) {
+        for (int i = 1;             i < 6;                     i++)           {
             System.out.println("Hi");
         }
 

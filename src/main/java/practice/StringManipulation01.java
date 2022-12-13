@@ -34,7 +34,7 @@ public class StringManipulation01 {
         System.out.println(firstChar);
 
 
-        //practice 5: valueOf(); return type dönüşümünü yapar int ==> String gibi
+        //practice 5: valueOf(); String return type'inin dönüşümünü yapar int ==> String gibi
 
         int value=30;
         String s1 = String.valueOf(value);

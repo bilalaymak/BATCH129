@@ -1,6 +1,8 @@
 package odev;
 
 
+import static java.lang.Math.pow;
+
 public class Odev01 {
     //1)Dikdirtgenin alanini hesaplayan methodu olusturunuz ve kullaniniz
 //2)Dikdirtgenin cevresini hesaplayan methodu olusturunuz ve kullaniniz
@@ -40,7 +42,7 @@ public class Odev01 {
     }
     public static double areaOfCircle(double r){
 
-        return pi * Math.pow(r,2);
+        return pi * pow(r,2);
     }
 
 
