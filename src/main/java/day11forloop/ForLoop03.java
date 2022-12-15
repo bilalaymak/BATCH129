@@ -36,9 +36,25 @@ public class ForLoop03 {
         //logic = Strinigi ters cevir sonra da duz hali ile ters halini karsilastir
         // ayni ise "Palindrome"
 
-        // interview de sorunun mantigini sesli dusun*****
+        // interview de sorunun mantigini sesli dusun, mantigini anlat once *****
 
-        String r = "civic";
+        String duz = "civic";
+        String ters = "";
+
+        for (int i = duz.length()-1; i>=0; i--){
+            // char ch = duz.charAt(i); yapabiliriz kisaltmak icin kodu
+            ters = ters + duz.charAt(i);
+
+        }
+        if(duz.equals(ters)){ //stringlerin esitligi equals ile yapildi //buyuk harf kucuk harf ignore edersek
+            //duz.equalsIgnoreCase(ters) yapariz
+            System.out.println(duz +": Palindrome'dur");
+        }
+        else {
+            System.out.println(duz +": palindrome degildir"); //ikisini de duz yapiyoruz
+            //// (neden ters degil in cevabi)
+        }
+
 
 
 
