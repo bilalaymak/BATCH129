@@ -1,4 +1,4 @@
-package practice;
+package practice.stringmanipulations;
 
 import java.util.Scanner;
 

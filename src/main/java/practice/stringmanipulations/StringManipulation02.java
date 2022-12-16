@@ -1,4 +1,4 @@
-package practice;
+package practice.stringmanipulations;
 
 public class StringManipulation02 {
     public static void main(String[] args) {
