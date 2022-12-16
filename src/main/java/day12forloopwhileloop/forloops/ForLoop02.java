@@ -1,4 +1,4 @@
-package day12forloopwhileloop;
+package day12forloopwhileloop.forloops;
 
 import java.util.Scanner;
 
