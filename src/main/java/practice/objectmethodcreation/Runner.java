@@ -1,4 +1,4 @@
-package practice.methodcreation;
+package practice.objectmethodcreation;
 
 public class Runner {
     public static void main(String[] args) {

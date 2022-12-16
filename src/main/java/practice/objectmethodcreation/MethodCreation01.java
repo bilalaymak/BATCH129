@@ -1,4 +1,4 @@
-package practice.methodcreation;
+package practice.objectmethodcreation;
 
 public class MethodCreation01 {
     //string'i yazdiran method olusturalım

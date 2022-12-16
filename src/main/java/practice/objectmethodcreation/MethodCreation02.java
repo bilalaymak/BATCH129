@@ -1,4 +1,4 @@
-package practice.methodcreation;
+package practice.objectmethodcreation;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package practice.methodcreation;
+package practice.objectmethodcreation;
 
 public class School {
     String okulIsmi="Techpro koleji";
