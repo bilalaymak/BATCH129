@@ -38,6 +38,9 @@ public class WhileLoop01 {
         //example 3: verilen bir tam sayinin rakamlari toplamini konsola yazdiran kodu yazdirin
         //interview sorusu
 
+
+        //1. yol while loop cozumu
+
         int num = 57864;
         num = Math.abs(num); // burasi num icin negatif degerler icin yaptigimiz tamir
         int sum = 0;
@@ -50,6 +53,18 @@ public class WhileLoop01 {
             num/=10; // decrement yapiyoruz bolme ile
         }
         System.out.println(sum);
+
+        //2. yol for loop cozumu
+        //rakamlari toplami
+
+        int a = 6841;
+        int toplam = 0;
+
+        for (int m = a; m > 0 ; m/=10) {
+        toplam = toplam + m%10;
+
+        }
+        System.out.println(toplam);
 
 
 
