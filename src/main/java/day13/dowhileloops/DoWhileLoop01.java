@@ -1,4 +1,4 @@
-package day13;
+package day13.dowhileloops;
 
 public class DoWhileLoop01 {
     public static void main(String[] args) {
