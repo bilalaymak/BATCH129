@@ -31,20 +31,27 @@ public class Arrays03 {
 
         //verilen array'de eleman sayisi 5 ve 5'den kucuk olan kac eleman var, bulmaliyiz
 
-        int counter = 0;
-        for (String w : colors){
+        int counter = 0; // bu bolumde arrayde karakter sayisi 6dan kucuk olan kac eleman var onu buluyoruz
+        for (String w : colors){//String w : colors bizi colors Stringinde her indexi bize gezdirir
             if (w.length()<=5){
                 counter++;
             }
         }
         System.out.println(counter);//4
 
-        String newColors[] = new String[counter];
+        //arrayler collectionlara gore ilkel yapidadir, collectionlarda biz istedigimiz elemani silebiliyoruz
+        //fakat arraylerde elemanlari silmemiz icin yeni array olusturmamiz gerekiyor
+        // arrayler ilkel ama hizli, ilkel datalar hiz yonunden avantaj sagladigi icin kullanilir
 
-        int idx = 0;
-        for (String w : colors){
+        //yeni array olustur
+        String newColors[] = new String[counter];// boylelikle biz eleman sayisi 4 olan bir array olusturduk
+        //[null,null,null,null]
+
+        //karakter sayisi 5 ve 5den kucuk olanlari yeni arraye transfer et
+        int idx = 0;//yeni olusturulan indexleri bize veriyor
+        for (String w : colors){//for-each-loop'da index degiskeni genel olarak "w" kullanilir
             if (w.length()<=5){
-                newColors[idx] = w;
+                newColors[idx] = w;//"red" i index'i 0 olan arraye koy diyoruz
                 idx++;
             }
 
