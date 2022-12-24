@@ -24,7 +24,27 @@ public class ArraysIkinciMax {
         //min:-90 max: 10001 scndMax: 8787
 
 
-        //2. yol
+        //2. yol [-90, 0, 1, 100, 845, 898, 8787, 10001]
+
+        int min = arr[0];
+        int max = arr[0];
+        int scndMax = arr[0];
+
+        for(int w : arr){
+            if(w<min){
+                min = w;
+            }
+             else if(w>max){
+                 scndMax = max;//burasi onemli
+                max = w;
+            }
+            else if(w>scndMax) {
+                 scndMax = w;
+            }
+        }
+
+        System.out.println("min:" + min + " max: " + max + " scndMax: " + scndMax);
+        //min:-90 max: 10001 scndMax: 8787
 
 
 
