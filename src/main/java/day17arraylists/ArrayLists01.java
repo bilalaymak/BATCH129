@@ -1,6 +1,8 @@
 package day17arraylists;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrayLists01 {
     public static void main(String[] args) {
@@ -93,7 +95,24 @@ public class ArrayLists01 {
         System.out.println(s);//false
 
         //example 1:
-        // Verilen 2 İnteger List'te tamamiyla ayni elemanlari olup olmadigini kontrol eden kodu yaziniz
+        // Verilen 2 İnteger List'te "tamamiyla ayni elemanlari olup olmadigini" kontrol eden kodu yaziniz
+
+        ArrayList<Integer> num1 = new ArrayList<>();
+        num1.add(8);
+        num1.add(9);
+        num1.add(10);
+
+        ArrayList<Integer> num2 = new ArrayList<>();
+        num2.add(8);
+        num2.add(10);
+        num2.add(9);
+
+        Collections.sort(num1);//kucukten buyuge dizdik
+
+        Collections.sort(num2);//listler collectionlarin bir parcasidir,oranin bazi methodlarini kullanabiliriz
+
+        boolean t = num1.equals(num2);
+        System.out.println(t);//true
 
 
 
