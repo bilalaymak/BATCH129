@@ -1,11 +1,10 @@
 package day18lists;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class List02 {
+public class Lists02 {
     public static void main(String[] args) {
 
         //Example 2: bir tane Integer List olusturunuz (interview sorusu)
