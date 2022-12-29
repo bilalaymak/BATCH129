@@ -53,11 +53,10 @@ public class Task01 {
             if (kullaniciSecimi.equals(bilgSecimi)){
                 System.out.println("berabere");
             } else if (
-                    (bilgSecimi.equals("tas") && bilgSecimi.equals("makas")) ||
+                    (kullaniciSecimi.equals("tas") && bilgSecimi.equals("makas")) ||
                             (kullaniciSecimi.equals("makas") && bilgSecimi.equals("kagit")) ||
                             (kullaniciSecimi.equals("kagit") && bilgSecimi.equals("tas") ))
-             {
-                 System.out.println("kullanici kazandi");
+            {System.out.println("kullanici kazandi");
                 kullaniciPuani++;
             }else {
                 System.out.println("bilgisayar kazandi");
