@@ -1,6 +1,6 @@
 package practicetechpro.forloops;
 
-public class FoorLoop01 {
+public class ForLoop01 {
     public static void main(String[] args) {
         // Baslangic ve bitis sayilari arasindaki artis miktarinca artirilarak
         // verilen tum sayilari aralarina virgul koyarak yazdirin
