@@ -1,4 +1,4 @@
-package practicetechpro.whileloop;
+package practicetechpro.dowhile;
 
 import java.util.Scanner;
 
