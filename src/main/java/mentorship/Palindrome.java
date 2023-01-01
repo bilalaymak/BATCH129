@@ -17,7 +17,7 @@ public class Palindrome {
         System.out.print("String bir ifade giriniz : ");
         String ifade = scan.nextLine();
 
-        palindomeWithStringBuilder(ifade);
+        palindromeWithStringBuilder(ifade);
         palindromeWithForLoop(ifade);
 
     }
@@ -29,13 +29,13 @@ public class Palindrome {
         }
         System.out.println("tersStr = " + tersStr);
         if(tersStr.equalsIgnoreCase(str)){
-            System.out.print("girilen ifade palindomdur -> " + tersStr);
+            System.out.print("girilen ifade palindromdur -> " + tersStr);
         }else System.out.print("girilen ifade palindrom degildir ->" +tersStr);
     }
 
-    private static void palindomeWithStringBuilder(String str) {
+    private static void palindromeWithStringBuilder(String str) {
         StringBuilder sb = new StringBuilder(str);
-        String tersStr = sb.reverse().toString();
+        String tersStr = sb.reverse().toString();//reverse().toString() method chaini tersten yazdirma code u
         if(tersStr.equalsIgnoreCase(str)){
             System.out.println("girilen ifade palindomdur -> " + tersStr);
         }else System.out.println("girilen ifade palindrom degildir ->" +tersStr);
