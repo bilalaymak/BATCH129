@@ -9,17 +9,13 @@ public class Practice05 {
     static ArrayList<Double> dailyIncomes;
 
     public static void main(String[] args) {
-
         Practice05 grocery =new Practice05();
-
         grocery();
         getIncome();
         System.out.println("Average Income: " + getAverageIncome() );
         System.out.println("Days of lower-Average Income: " + grocery.getDaysOfIncomeLowerAverage());
         System.out.println("Days of over-Average Income: " + grocery.getDaysOfIncomeOverAverage());
-
     }
-
     public static void grocery(){
         days = new ArrayList<>();
         days.add("Sunday");
@@ -29,12 +25,10 @@ public class Practice05 {
         days.add("Thursday");
         days.add("Friday");
         days.add("Saturday");
-
     }
-
     public static void getIncome(){
         dailyIncomes = new ArrayList<>();
-        for (int i = 0; i < 7; i++){
+        for (int i = 0; i < days.size(); i++){
             System.out.println(" enter your income for the day of " +days.get(i) + " : " );
             double dailyIncome = input.nextDouble();
             dailyIncomes.add(dailyIncome);
@@ -47,7 +41,6 @@ public class Practice05 {
         }
         return  sum / days.size();
     }
-
     public ArrayList<String> getDaysOfIncomeOverAverage(){
         ArrayList<String> daysOfOverIncome = new ArrayList<>();
         double averageIncome = getAverageIncome();
@@ -58,7 +51,6 @@ public class Practice05 {
         }
         return daysOfOverIncome;
     }
-
     public ArrayList<String> getDaysOfIncomeLowerAverage(){
         ArrayList<String> daysOfLowerIncome = new ArrayList<>();
         double averageIncome = getAverageIncome();
@@ -68,7 +60,6 @@ public class Practice05 {
             }
         }
         return  daysOfLowerIncome;
-
     }
 }
 

@@ -50,11 +50,13 @@ public class Bakkal {
     public void kazanclariAl() {
         // gunlukKazanclar ArrayList'ini oluşturalım
         gunlukKazanclar = new ArrayList<>();
-        for (int i = 0; i < gunler.size(); i++) {
+        int i = 0;
+        while ( i < gunler.size()) {
             // Kullanıcıdan gün için günlük kazanç alalım
             System.out.print(gunler.get(i) + " günü için günlük kazancı girin: ");
             double gunlukKazanc = input.nextDouble();
             gunlukKazanclar.add(gunlukKazanc);
+            i++;
         }
     }
 
