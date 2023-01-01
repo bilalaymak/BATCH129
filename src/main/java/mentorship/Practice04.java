@@ -1,6 +1,6 @@
 package mentorship;
 
-public class Assss {
+public class Practice04 {
 
 
 

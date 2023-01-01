@@ -1,4 +1,4 @@
-package mentorship.practices.x2;
+package mentorship.practices.x2.task01;
 
 import java.util.Scanner;
 
