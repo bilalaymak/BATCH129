@@ -2,7 +2,7 @@ package mentorship;
 
 import java.util.Scanner;
 
-public class Practice02 {
+public class NotHesaplamaSistemi {
     public static void main(String[] args) {
 
      /* TASK :
@@ -64,7 +64,7 @@ public class Practice02 {
             } else if (gecmeNotu < 70 && gecmeNotu >= 60) {
                 System.out.println(" basarılı CB ");
             } else if (gecmeNotu < 60 && gecmeNotu >= 50) {
-                System.out.println("hacı 50 nryinr yetmiyor CC ");
+                System.out.println("hacı 50 neyine yetmiyor CC ");
             } else if (gecmeNotu < 50 && gecmeNotu >= 40) {
                 System.out.println("ha gayret DC ");
             } else if (gecmeNotu < 40 && gecmeNotu >= 30) {
