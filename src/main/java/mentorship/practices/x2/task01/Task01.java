@@ -52,15 +52,20 @@ public class Task01 {
 
             if (kullaniciSecimi.equals(bilgSecimi)){
                 System.out.println("berabere");
-            } else if (
+                kullaniciPuani++;
+                bilgPuani++;
+            } else if (//kullanicinin kazandigi rakamlar
                     (kullaniciSecimi.equals("tas") && bilgSecimi.equals("makas")) ||
                             (kullaniciSecimi.equals("makas") && bilgSecimi.equals("kagit")) ||
                             (kullaniciSecimi.equals("kagit") && bilgSecimi.equals("tas") ))
-            {System.out.println("kullanici kazandi");
+            {
+
                 kullaniciPuani++;
+                System.out.println("kullanici kazandi!! puaniniz = " + kullaniciPuani + " bilgisayar puani = " + bilgPuani);
             }else {
-                System.out.println("bilgisayar kazandi");
                 bilgPuani++;
+                System.out.println("bilgisayar kazandi!! bilgisayar puani = " + bilgPuani + " kullanici puani = " + kullaniciPuani);
+
             }
 
             //7) En sonda da kullaniciya oyuna devam etmek isteyip istemedigini soruyoruz, eger istiyorsa
@@ -71,6 +76,10 @@ public class Task01 {
                 break;
             }
         }//while-brace
+
+
+        System.out.println("oynadiginiz icin tesekkur ederiz!!");
+
 
 
 
