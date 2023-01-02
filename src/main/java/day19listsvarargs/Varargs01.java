@@ -9,7 +9,7 @@ public class Varargs01 {
         Method'u cagirirken kullanilan sayilara da "argument" denir.
 
         Note 1: Bir method'da 1 den fazla Varargs Parametre kullanilamaz cunku ikincisi "Unreachable Code" olur.
-        Note 2: "Varargs", Varargas disindaki parametrelerle kullanilabilir ama "Varargs" her zaman "son parametre" olmalidir
+        Note 2: "Varargs", Varargs disindaki parametrelerle kullanilabilir ama "Varargs" her zaman "son parametre" olmalidir
      */
 
         public static void main(String[] args) {
