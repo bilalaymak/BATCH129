@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class FrequencyOfCertainChar {
     /*
-       Kullanicidan bir isim ve karakter girmesini isteyin, sonra karakterin kac kez tekrarlandigini kontrol edin.
+       Kullanicidan bir isim ve karakter girmesini isteyin, sonra
+       karakterin kac kez tekrarlandigini kontrol edin.
                char ch= 'e' ;
                String name ="Sevecen"
                => Tekrar Sayisi = 3
@@ -23,6 +24,11 @@ public class FrequencyOfCertainChar {
                 sayac++;
         }
         System.out.print("tekrar sayisi :" +sayac);
+
+
+
+
+
 
     }
 
