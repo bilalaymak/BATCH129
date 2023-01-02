@@ -21,6 +21,7 @@ public class WhileCountSum {
             sayi= scan.nextInt();
             toplam +=sayi;
             sayac++;
+
         }
 
         if(sayac<10 && toplam<500){
