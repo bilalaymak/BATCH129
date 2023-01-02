@@ -42,7 +42,8 @@ public class Lists01 {
         products.add("Mobile Phone");
 
         /*
-            "for loop" kurunuz, products listindeki herbir elemanin tum characterlerini "set method" kullanarak kucuk harfe ceviriniz
+            "for loop" kurunuz, products listindeki herbir elemanin tum characterlerini
+            "set method" kullanarak kucuk harfe ceviriniz
             Kullanicidan gelen urun ismini de kucuk harfe cevirin
          */
 
