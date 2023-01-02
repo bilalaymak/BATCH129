@@ -22,8 +22,10 @@ public class Lists03 {
         System.out.println("Oyunu sonlandirmak icin Q ya basiniz...");
 
         //Arrays.asList() ile List olusturulabilir.
-        //Ama Listlerdeki "eleman sayisini" degistiren hicbir method bu List icin kullanilamaz.
-        //Dolayisiyla bu sorunun cozumunde ihtiyaciniz olan Listi "Arrays.asList()" kullanarak olusturmamalisiniz.
+        //Ama Listlerdeki "eleman sayisini" degistiren
+        // hicbir method bu List icin kullanilamaz.
+        //Dolayisiyla bu sorunun cozumunde ihtiyaciniz olan Listi
+        // "Arrays.asList()" kullanarak olusturmamalisiniz.
         //List<Integer> numsList = Arrays.asList(5, 8, 2, 9);
 
         List<String> numsList = new ArrayList<>();
