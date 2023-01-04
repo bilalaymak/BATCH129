@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Practice05 {
     static Scanner input = new Scanner(System.in);
-    static ArrayList<String> days;
-    static ArrayList<Double> dailyIncomes;
+    static ArrayList<String>days = new ArrayList<>();
+    static ArrayList<Double>dailyIncomes = new ArrayList<>();
 
     public static void main(String[] args) {
         Practice05 grocery =new Practice05();
@@ -17,7 +17,6 @@ public class Practice05 {
         System.out.println("Days of over-Average Income: " + grocery.getDaysOfIncomeOverAverage());
     }
     public static void grocery(){
-        days = new ArrayList<>();
         days.add("Sunday");
         days.add("Monday");
         days.add("Tuesday");
@@ -27,7 +26,7 @@ public class Practice05 {
         days.add("Saturday");
     }
     public static void getIncome(){
-        dailyIncomes = new ArrayList<>();
+
         for (int i = 0; i < days.size(); i++){
             System.out.println(" enter your income for the day of " +days.get(i) + " : " );
             double dailyIncome = input.nextDouble();
@@ -41,7 +40,7 @@ public class Practice05 {
         }
         return  sum / days.size();
     }
-    public ArrayList<String> getDaysOfIncomeOverAverage(){
+    public static ArrayList<String> getDaysOfIncomeOverAverage(){
         ArrayList<String> daysOfOverIncome = new ArrayList<>();
         double averageIncome = getAverageIncome();
         for(int i = 0; i<days.size(); i++){
@@ -51,7 +50,7 @@ public class Practice05 {
         }
         return daysOfOverIncome;
     }
-    public ArrayList<String> getDaysOfIncomeLowerAverage(){
+    public static ArrayList<String> getDaysOfIncomeLowerAverage(){
         ArrayList<String> daysOfLowerIncome = new ArrayList<>();
         double averageIncome = getAverageIncome();
         for (int i = 0; i < days.size(); i++){

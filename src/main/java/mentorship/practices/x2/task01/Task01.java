@@ -75,6 +75,7 @@ public class Task01 {
             if (!devam.equals("evet")){
                 break;
             }
+
         }//while-brace
 
 
@@ -85,3 +86,4 @@ public class Task01 {
 
     }
 }
+
