@@ -12,7 +12,7 @@ public class reverse {
 
         StringBuilder stb = new StringBuilder(str2);
         System.out.println("stb = " + stb);
-        String str2Reverse = stb.reverse().toString().toString();
+        String str2Reverse = stb.reverse().toString();
         System.out.println("Reverse() sonrası stb: "+stb);
 
         if(str2.equals(str2Reverse)){
