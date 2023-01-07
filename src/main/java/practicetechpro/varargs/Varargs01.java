@@ -4,7 +4,7 @@ public class Varargs01 {
     public static void main(String[] args) {
 
         /*
-​
+
         Farkli parametreler ile calisabilen methodlar olusturmak icin varargs'lar kullanilir
         Varargs'larin arka tarafinda Array'ler calisir
         Varargs nasil olusturulur.( Data type...  varargs ismi) veya ( Data type  ...varargs ismi)
