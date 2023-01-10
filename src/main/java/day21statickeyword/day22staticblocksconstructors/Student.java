@@ -1,4 +1,4 @@
-package day22staticblocksconstructors;
+package day21statickeyword.day22staticblocksconstructors;
 
 public class Student {
 

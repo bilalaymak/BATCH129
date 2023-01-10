@@ -1,4 +1,4 @@
-package day22staticblocksconstructors;
+package day21statickeyword.day22staticblocksconstructors;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
