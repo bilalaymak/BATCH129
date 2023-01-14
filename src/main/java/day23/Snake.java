@@ -1,6 +1,6 @@
 package day23;
 
-import day24accessmodifiersinheritance.Animal;
+import day24accessmodifiersinheritance.animal.Animal;
 
 public class Snake extends Animal {
 

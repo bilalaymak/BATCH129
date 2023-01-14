@@ -1,4 +1,4 @@
-package day24accessmodifiersinheritance;
+package day24accessmodifiersinheritance.vehicle;
 
 public class Vehicle {
 

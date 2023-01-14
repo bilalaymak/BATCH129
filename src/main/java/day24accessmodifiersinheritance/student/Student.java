@@ -1,4 +1,4 @@
-package day24accessmodifiersinheritance;
+package day24accessmodifiersinheritance.student;
 
 public class Student {
     public String name = "Tom Hanks";

@@ -2,7 +2,7 @@ package day12forloopwhileloop.forloops;
 
 import java.util.Scanner;
 
-public class forloop01 {
+public class Forloop01 {
     public static void main(String[] args) {
 
         /*
