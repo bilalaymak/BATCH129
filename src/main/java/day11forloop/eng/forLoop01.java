@@ -1,4 +1,4 @@
-package day12forloopwhileloop.eng;
+package day11forloop.eng;
 
 public class forLoop01 {
     public static void main(String[] args) {
