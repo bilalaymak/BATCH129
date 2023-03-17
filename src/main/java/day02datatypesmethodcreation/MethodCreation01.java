@@ -18,7 +18,7 @@ public class MethodCreation01 {
         System.out.println(islemSonucuKup);
 
     }
-    /*methodcreation main methodun dışına yazılır
+    /*method creation main methodun dışına yazılır
 
      */
     public static int add(int a, int b) {
